@@ -325,6 +325,7 @@ void AddNote(){
     printf("Press any key............");
     getch();
     fclose(fp);
+return;
 }
 
 void showNote(int mm){
@@ -354,6 +355,7 @@ void showNote(int mm){
 }
 
 int main(){
+//calender will be updated
     ClearConsoleToColors(15, 5);
     SetConsoleTitle("Calender Project - ITSOURCECODE.COM");
     int choice;
